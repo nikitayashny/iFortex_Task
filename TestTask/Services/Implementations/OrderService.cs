@@ -11,7 +11,7 @@ public class OrderService : IOrderService
     public OrderService(ApplicationDbContext context) => _context = context;
 
     public async Task<Order> GetOrder() =>
-        await _context.Orders.OrderByDescending(o => o.Price)   // сортируем по полю Price в порядке убывания
+        await _context.Orders.OrderByDescending(o => o.Price * o.Quantity)   
         .FirstOrDefaultAsync(); // берём первую запись
 
     public async Task<List<Order>> GetOrders() =>

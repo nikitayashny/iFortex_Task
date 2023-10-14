@@ -3110,11 +3110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\iFortex\\TestTask\\TestTask\\TestTask.csproj",
+      "projectUniqueName": "C:\\work\\iFortex\\TestTask\\TestTask\\TestTask.csproj",
       "projectName": "TestTask",
-      "projectPath": "C:\\Users\\User\\Desktop\\iFortex\\TestTask\\TestTask\\TestTask.csproj",
+      "projectPath": "C:\\work\\iFortex\\TestTask\\TestTask\\TestTask.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\iFortex\\TestTask\\TestTask\\obj\\",
+      "outputPath": "C:\\work\\iFortex\\TestTask\\TestTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
